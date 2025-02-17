@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #555;
+}
+
+.hero {
+    text-align: center;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 50px 20px;
+}
+
+.order-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+}
