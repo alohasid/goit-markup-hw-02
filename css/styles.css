@@ -217,3 +217,55 @@ footer {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.portfolio {
+    background-color: #F4F4FD;
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 360px;
+}
+
+.portfolio-item img {
+    width: 360px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
