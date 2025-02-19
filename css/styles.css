@@ -120,7 +120,6 @@ nav ul {
 
 .team-list {
     list-style: none;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -191,7 +190,6 @@ footer {
 .portfolio-list {
     list-style: none;
     margin: 0;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
