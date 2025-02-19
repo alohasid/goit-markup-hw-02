@@ -120,19 +120,16 @@ nav ul {
 
 .team-list {
     list-style: none;
-    margin: 0;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    margin-bottom: 20px;
     text-align: center;
 }
 
 .team-item img {
-    margin-bottom: 10px;
 }
 
 .team-title {
@@ -200,12 +197,10 @@ footer {
 
 .portfolio-item {
     background-color: #FFFFFF;
-    margin-bottom: 20px;
     text-align: center;
 }
 
 .portfolio-item img {
-    margin-bottom: 10px;
 }
 
 .portfolio-title {
