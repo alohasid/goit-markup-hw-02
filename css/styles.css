@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    display: flex;
     justify-content: space-between;
     background-color: #f8f9fa;
 }
@@ -27,7 +26,6 @@ header {
 
 nav ul {
     list-style: none;
-    display: flex;
 }
 
 .nav-link {
@@ -90,7 +88,6 @@ nav ul {
 }
 
 .features {
-    display: flex;
     justify-content: space-around;
 }
 
@@ -110,7 +107,6 @@ nav ul {
 }
 
 .portfolio-grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
@@ -160,7 +156,6 @@ footer {
 }
 
 .footer-container {
-    display: flex;
 }
 
 .footer-logo {
@@ -199,7 +194,6 @@ footer {
 .portfolio-list {
     list-style: none;
     margin: 0;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
