@@ -105,14 +105,6 @@ nav ul {
     color: #434455;
 }
 
-.portfolio-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.portfolio-item img {
-}
-
 .team {
     background-color: #F4F4FD;
 }
