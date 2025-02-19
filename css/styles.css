@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif !important;
     color: #434455;
-    margin: 0;
     background-color: #fff;
 }
 
@@ -189,7 +188,6 @@ footer {
 
 .portfolio-list {
     list-style: none;
-    margin: 0;
     justify-content: space-around;
 }
 
