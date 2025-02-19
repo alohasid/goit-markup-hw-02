@@ -229,11 +229,11 @@ footer {
     /*padding: 20px;*/
     margin-bottom: 20px;
     text-align: center;
-    width: 360px;
+    /*width: 360px;*/
 }
 
 .portfolio-item img {
-    width: 360px;
+    /*width: 360px;*/
     /*height: auto;*/
     margin-bottom: 10px;
 }
