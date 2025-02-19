@@ -2,14 +2,14 @@ body {
     font-family: 'Roboto', sans-serif !important;
     color: #434455;
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     background-color: #fff;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
     background-color: #f8f9fa;
 }
 
@@ -30,8 +30,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
-    padding: 0;
+    /*gap: 20px;*/
+    /*padding: 0;*/
 }
 
 .nav-link {
@@ -68,7 +68,7 @@ nav ul {
     text-align: center;
     background-color: #2e2f42;
     color: white;
-    padding: 50px 20px;
+    /*padding: 50px 20px;*/
 }
 
 .hero-title {
@@ -118,39 +118,39 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 50px 20px;
+    /*padding: 50px 20px;*/
 }
 
 .portfolio-item img {
-    width: 100%;
-    height: auto;
+    /*width: 100%;*/
+    /*height: auto;*/
 }
 
 .team {
     background-color: #F4F4FD;
-    padding: 50px 20px;
+    /*padding: 50px 20px;*/
 }
 
 .team-list {
     list-style: none;
-    padding: 0;
+    /*padding: 0;*/
     margin: 0;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    padding: 20px;
+    /*padding: 20px;*/
     margin-bottom: 20px;
     text-align: center;
-    width: 360px;
+    /*width: 360px;*/
 }
 
 .team-item img {
-    width: 150px;
-    border-radius: 50%;
+    /*width: 150px;*/
+    /*border-radius: 50%;*/
     margin-bottom: 10px;
 }
 
@@ -171,14 +171,14 @@ nav ul {
 
 footer {
     background-color: #2e2f42;
-    padding: 20px;
+    /*padding: 20px;*/
     text-align: center;
 }
 
 .footer-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
 }
 
 .footer-logo {
@@ -203,7 +203,7 @@ footer {
 
 .portfolio {
     background-color: #F4F4FD;
-    padding: 50px 20px;
+    /*padding: 50px 20px;*/
 }
 
 .section-title {
@@ -217,7 +217,7 @@ footer {
 
 .portfolio-list {
     list-style: none;
-    padding: 0;
+    /*padding: 0;*/
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -226,7 +226,7 @@ footer {
 
 .portfolio-item {
     background-color: #FFFFFF;
-    padding: 20px;
+    /*padding: 20px;*/
     margin-bottom: 20px;
     text-align: center;
     width: 360px;
@@ -234,7 +234,7 @@ footer {
 
 .portfolio-item img {
     width: 360px;
-    height: auto;
+    /*height: auto;*/
     margin-bottom: 10px;
 }
 
@@ -259,7 +259,7 @@ footer {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: #4d5ae5;
 }
 
@@ -271,4 +271,5 @@ footer {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    text-transform: lowercase;
 }
